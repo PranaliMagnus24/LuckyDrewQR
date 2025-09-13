@@ -1,12 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Lucky Draw</h1>
-</body>
-</html>
+<footer class="bg-dark text-white text-center py-3 mt-auto">
+    <div class="container">
+        <p class="mb-1">© {{ now()->year }} {{ config('Lucky Draw', 'Lucky Draw') }}. All rights reserved.</p>
+        {{-- <small>
+            <a href="#" class="text-decoration-none text-white-50 me-3">Features</a>
+            <a href="#" class="text-decoration-none text-white-50">Contact</a>
+        </small> --}}
+    </div>
+</footer>
